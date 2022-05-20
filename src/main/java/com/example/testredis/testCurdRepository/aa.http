@@ -1,0 +1,23 @@
+POST http://localhost:8080/test2
+Content-Type: application/json
+
+{"name": "zjliu","id":123,"age":20,"sex": "1"}
+
+###
+
+
+
+POST http://localhost:8080/test
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{"name": "lzj","id": 123,"age": 11,"sex": "man"}
+
+
+###
+
+POST http://localhost:8080/test1
+Content-Type: application/json
+
+{"name": 123}
