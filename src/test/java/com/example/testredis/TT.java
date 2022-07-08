@@ -27,7 +27,7 @@ import java.util.stream.Stream;
  */
 public class TT {
 
-    @Test
+/*    @Test
     public void tt() {
         RedisJsonClient r = new RedisJsonClient();
         JReJSON reJSON = r.getReJSON();
@@ -61,12 +61,12 @@ public class TT {
 
 
 
-       /* String s = new String(source.bucket.data.get("objectValue"),"UTF-8");
+       *//* String s = new String(source.bucket.data.get("objectValue"),"UTF-8");
         Map<String,String> map1 = JSON.parseObject(s,Map.class);
         Jackson2JsonRedisSerializer j2r = new Jackson2JsonRedisSerializer(type);
         Map<String, Object> c = map1.entrySet().stream().filter(o->!ObjectUtils.isEmpty(o.getValue())). collect(Collectors.toMap(
                 k-> k,
                 v->v
-        ));*/
-    }
+        ));*//*
+    }*/
 }
