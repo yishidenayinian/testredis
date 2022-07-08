@@ -24,7 +24,7 @@ public class Test {
 
     @org.junit.jupiter.api.Test
     public void test() {
-        // 清空当前库
+      /*  // 清空当前库
         jedis.flushDB();
 
         reJSON.set("test", "test1");
@@ -53,6 +53,6 @@ public class Test {
         System.out.println(JSON.toJSONString(obj));
 
 
-        reJSON.set("user:redisjson",u);
+        reJSON.set("user:redisjson",u);*/
     }
 }

@@ -31,7 +31,7 @@ public class TT {
     public void tt() {
         RedisJsonClient r = new RedisJsonClient();
         JReJSON reJSON = r.getReJSON();
-        User u = User.builder().name("my name is reclient").build();
+        User u = User.builder().name("my name11 is reclient").build();
         reJSON.set("reclient",u);
         Object reclient = reJSON.get("reclient");
         Gson g = new Gson();

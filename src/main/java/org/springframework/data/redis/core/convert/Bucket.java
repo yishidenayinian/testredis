@@ -230,9 +230,7 @@ public class Bucket {
                 .filter(o -> !ObjectUtils.isEmpty(o.getValue()))
                 .collect(Collectors.toMap(
                         entry1 -> entry1.getKey(),
-                        /*
 
-                         */
                         entry2 -> new String(entry2.getValue(), CHARSET)
                 ));
 
